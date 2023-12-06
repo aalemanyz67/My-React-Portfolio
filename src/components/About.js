@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
-import avatar from "../images/Portfolio_Headshot.png";
+import avatar from "../images/headshot.jpg";
 import "../style/About.css";
 
 function About() {
