@@ -3,7 +3,7 @@ import React from 'react';
 // Import ReactDOM client
 import ReactDOM from 'react-dom/client';
 // Import App component
-import App from './App';
+import App from './App.js';
 // Import CSS file
 import "./style/index.css";
 

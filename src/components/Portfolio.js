@@ -1,5 +1,5 @@
 import React from "react";
-import Project from "./Project";
+import Project from "./Project.js";
 import WorkdayScheduler from "../images/workday_scheduler.png";
 import BootcampQuiz from "../images/BootcampQuiz.png";
 import ExpressNoteTaker from "../images/express-notetaker.png";
@@ -36,8 +36,8 @@ function Portfolio() {
                 title:"Express Note Taker",
                 description:"Application using Express.js that allows the user to take down and save notes.",
                 imageSrc: ExpressNoteTaker,
-                deployedLink: "https://github.com/aalemanyz67/Express.js-Note-Taker",
-                gitHubLink: "https://my-sql-practice-f966e600f721.herokuapp.com/",          
+                deployedLink: "https://my-sql-practice-f966e600f721.herokuapp.com/",
+                gitHubLink: "https://github.com/aalemanyz67/Express.js-Note-Taker",          
               },
               {
                 title:"Svg Maker",

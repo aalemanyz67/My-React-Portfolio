@@ -1,12 +1,12 @@
 // Import necessary React libraries and components
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from "./components/Header";
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
-import Footer from './components/Footer';
+import Header from "./components/Header.js";
+import About from './components/About.js';
+import Portfolio from './components/Portfolio.js';
+import Contact from './components/Contact.js';
+import Resume from './components/Resume.js';
+import Footer from './components/Footer.js';
 
 // Import Bootstrap and custom CSS styles
 import 'bootstrap/dist/css/bootstrap.min.css';

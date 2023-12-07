@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navigation from "./Navigation";
+import Navigation from "./Navigation.js";
 import { Container, Row, Col } from "react-bootstrap";
 import "../style/Header.css";
 
