@@ -5,7 +5,9 @@ import BootcampQuiz from "../images/BootcampQuiz.png";
 import ExpressNoteTaker from "../images/express-notetaker.png";
 import SvgMaker from "../images/svg_maker.png";
 import WeatherDashboard from "../images/weather_dashboard.png";
-import TastyTasty from "../images/tasty_tasyapp.png"
+import TastyTasty from "../images/tasty_tasyapp.png";
+import TexasHistory from "../images/TexasHistory.png";
+import FitnessTracker from "../images/Fitness_Tracker_Logo .png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/Portfolio.css";
 
@@ -54,12 +56,26 @@ function Portfolio() {
                 gitHubLink: "https://github.com/aalemanyz67/Weather-Application",          
               },
               {
-                title:"Tasty Tasty App",
+                title:"Tasty Tasty App (Project 1)",
                 description:"Recipe API finder application.",
                 imageSrc: TastyTasty,
                 deployedLink: "https://acolyte03.github.io/Recipe-Finder/",
                 gitHubLink: "https://github.com/Acolyte03/Recipe-Finder",          
               },
+              {
+                title:"Texas Timeline (Project 2)",
+                description:"Educational Application using Texas History.",
+                imageSrc: TexasHistory,
+                deployedLink: "https://texas-timeline-b7c488f7c786.herokuapp.com/login",
+                gitHubLink: "https://github.com/aalemanyz67/Project2-TexasTimeline",
+              },
+              {
+                title:"Fitness Tracker (Project 3)",
+                description:"Personal fitness tracker to log your workouts and add friends in the process.",
+                imageSrc: FitnessTracker,
+                deployedLink: "https://fitoness-tracker-779b260a5616.herokuapp.com/",
+                gitHubLink: "https://github.com/Bfinch3/fitness-tracker",
+              }
             ].map((project, index) => (
                 <div className="col-12 col-md-6 col-lg-4 my-2" key={index}>
                 {/* <h2>{project.title}</h2> */}
