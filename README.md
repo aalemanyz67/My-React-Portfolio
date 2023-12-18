@@ -1,7 +1,7 @@
 # My-React-Portfolio
 Alberto Aleman Jr.
 <br>Github Repo: https://github.com/aalemanyz67/My-React-Portfolio<br>
-Netlify link: https://react-portfolio-aalemanyz.netlify.app
+Netlify link: https://aalemanyzportfolio23.netlify.app/
 
 # Objective:
 My task is to create a portfolio using React skills that have been aquired throughout this bootcamp.
